@@ -1,10 +1,22 @@
 /* External CSS Has Lowest Priority Among Inline & Internal CSS */
+/* Using Class For Styling */
 .Heading{
     color:#ff0000;
 }
 
+/* Using Tag Name For Styling */
 span {
   background-color: aqua;
   /* When Multiple Declarations Target The Same Property, The Last One Wins  */
   background-color: bisque;
+}
+
+#big1 {
+  color: red;
+  background-color: yellow;
+}
+
+/* Targeting Buttons */
+button{
+    background-color: orange;
 }
