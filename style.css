@@ -1,3 +1,10 @@
+/* External CSS Has Lowest Priority Among Inline & Internal CSS */
 .Heading{
     color:#ff0000;
+}
+
+span {
+  background-color: aqua;
+  /* When Multiple Declarations Target The Same Property, The Last One Wins  */
+  background-color: bisque;
 }
