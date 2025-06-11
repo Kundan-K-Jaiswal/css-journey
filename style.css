@@ -11,6 +11,7 @@ span {
   background-color: bisque;
 }
 
+/* Using Id For Styling */
 #big1 {
   color: red;
   background-color: yellow;
