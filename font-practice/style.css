@@ -17,3 +17,16 @@ p {
   line-height: 40px;
   /* Creates Between The Next Line Paragraph */
 }
+
+#outer{
+    font-size: 35px;
+    /* Changes Font Size  */
+}
+
+#inner{
+    font-size: 23px;
+    font-weight: bolder;
+    /* Changes Thickness of The Texts */
+    text-shadow: 1px 1px red;
+    /* Adds Shadow Behind The Texts */
+}
