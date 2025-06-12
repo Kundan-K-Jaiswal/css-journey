@@ -1,0 +1,46 @@
+* {
+  /* Universal Selector -> Applies Styles To All The Element */
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  /* Changing Text Color To White */
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  /* Adding Background Color To The Page  */
+}
+
+div {
+  background-color: #0f1111;
+  /* Adding Background Color For Navbar  */
+  height: 40px;
+  /* Adding Height For The Div */
+  padding-top: 10px;
+  /* For Spacing From Top */
+}
+
+/* Styling Amazon Logo */
+.main {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  color: orange;
+}
+
+/* Arranging Layout */
+.nav {
+  margin: 120px;
+}
+
+#search-input {
+  height: 15px;
+  padding-left: 10px;
+}
+
+/* Styling Search Button  */
+#search {
+  background-color: rgb(225, 159, 34);
+  height: 20px;
+  width: 80px;
+}
