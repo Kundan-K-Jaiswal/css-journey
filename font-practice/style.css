@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  /* Aligns Text IN Center  */
+  text-transform: capitalize;
+  /* Changes First Letters Into Capital Letters  */
+  letter-spacing: 15px;
+  /* Creating Gap Between Letters  */
+  font-style: italic;
+  /* Changing Font Style To Italic */
+  text-decoration: underline;
+  /* Underlines The Text  */
+}
+
+p {
+  font-family: cursive;
+  /* Changes Font Style  */
+  line-height: 40px;
+  /* Creates Between The Next Line Paragraph */
+}
