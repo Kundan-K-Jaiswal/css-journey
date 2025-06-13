@@ -32,3 +32,76 @@
     border-radius: 50%;
 }
 
+/* Setting Animation For Glowing Red  */
+#red{
+  animation-name: glowred;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes glowred {
+  0% {
+    background-color: red;
+  }
+  33% {
+    background-color: red;
+  }
+  34% {
+    background-color: rgb(129, 134, 129); 
+  }
+  100%{
+    background-color: rgb(129, 134, 129);
+  }
+}
+
+
+/* Setting Animation For Glowing Yellow */
+#yellow {
+  animation-name: glowyellow;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes glowyellow {
+  0% {
+    background-color: rgb(129, 134, 129);
+  }
+  33% {
+    background-color: rgb(129, 134, 129);
+  }
+  34% {
+    background-color: yellow; 
+  }
+  67% {
+    background-color: yellow;
+  }
+  68% {
+    background-color: rgb(129, 134, 129);
+  }
+  100%{
+    background-color: rgb(129, 134, 129);
+  }
+}
+
+
+/* Setting Animation For Glowing Green */
+    #green{
+      animation-name: glowgreen;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes glowgreen {
+      0% {
+        background-color: rgb(129, 134, 129);
+      }
+      67% {
+        background-color: rgb(129, 134, 129);
+      }
+      68% {
+        background-color: green;
+      }
+      100%{
+        background-color: green;
+    }
+}
+
