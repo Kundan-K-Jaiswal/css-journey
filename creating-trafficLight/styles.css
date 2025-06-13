@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Styling Traffic Light Container  */
+.light-container{
+    height:500px;
+    width:200px;
+    background-color: black;
+    margin:50px;
+    border-radius: 15px ;
+    padding-top: 30px;
+}
+
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: yellow;
+}
+#green {
+  background-color: green;
+}
+
+/* Styling Light Circles */
+.light-container div {
+    height:130px;
+    width:130px;
+    margin:auto;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
