@@ -1,23 +1,48 @@
 /* Styles For All */
 * {
-    padding:0px;
-    margin:0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 /* Styling Main  */
 main {
-    height:100vh;
-    /* Setting Height To Complete View */
+  height: 100vh;
+  /* Setting Height To Complete View */
 }
 
 /* Styling Content's Container */
 .content {
-    margin: 10px 0 0 35px;
-    border:2px solid black;
-    height:350px;
-    height:200px;
-    width:350px;
-    display:inline-block;
-    padding:30px;
-    text-align:center;
+  margin: 10px 0 0 35px;
+  border: 2px solid black;
+  height: 350px;
+  height: 200px;
+  width: 350px;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Adding Colors To The Content */
+#red {
+  background-color: rgba(255, 0, 0, 0.5);
+  background-size: cover;
+  color: white;
+}
+
+#blue {
+  background-color: rgba(0, 0, 225, 0.5);
+}
+
+#green {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+/* Styling Footer Of The Page */
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
 }
