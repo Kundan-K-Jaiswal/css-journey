@@ -11,6 +11,8 @@ Here, in this repo I have explored few text & font properties like :
 <li>font-weight</li>
 <li>text-shadow</li>
 
+<hr>
 <pre>
   Author: Kundan Kumar Jaiswal
-  Exploring Text & Font Properties</pre>
+  Exploring Text & Font Properties
+</pre>
