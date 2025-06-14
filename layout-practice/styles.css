@@ -20,17 +20,20 @@ main {
   display: inline-block;
   padding: 30px;
   text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 /* Adding Colors To The Content */
 #red {
   background-color: rgba(255, 0, 0, 0.5);
   background-size: cover;
-  color: white;
 }
 
 #blue {
   background-color: rgba(0, 0, 225, 0.5);
+  background-image: url(../Assets-For-Css-Journey/background.webp);
+  background-size: cover;
+  text-shadow: 0px 0px 10px white;
 }
 
 #green {
@@ -45,4 +48,5 @@ footer {
   position: absolute;
   bottom: 0px;
   width: 100vw;
+  padding-top: 5px;
 }
