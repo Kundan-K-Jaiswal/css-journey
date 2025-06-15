@@ -4,7 +4,7 @@
 }
 
 /* Initial Styling of The Div */
-div {
+.practice {
   background-color: black;
   color: beige;
   font-size: 100px;
@@ -12,7 +12,7 @@ div {
 
 /* This Properties Will Be Applied Till The Width of Screen is Less Than 1333 */
 @media screen and (max-width:1333px) {
-  div {
+  .practice {
     background-color: aquamarine;
     font-size: 80px;
   }
@@ -20,7 +20,7 @@ div {
 
 /* This Properties Will Be Applied Till The Width of Screen is Less Than 1067 */
 @media screen and (max-width:1067px) {
-  div {
+  .practice {
     background-color:rgb(49, 49, 182);
     font-size: 60px;
   }
@@ -28,7 +28,7 @@ div {
 
 /* This Properties Will Be Applied Till The Width of Screen is Less Than 802 */
 @media screen and (max-width:802px) {
-  div {
+  .practice {
     background-color:rgb(30, 30, 190);
     font-size: 40px;
   }
@@ -36,7 +36,7 @@ div {
 
 /* This Properties Will Be Applied Till The Width of Screen is Less Than 535 */
 @media screen and (max-width:535px) {
-  div {
+  .practice {
     background-color: beige;
     color: black;
     font-size: 20px;
