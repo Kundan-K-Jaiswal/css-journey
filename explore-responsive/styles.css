@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Initial Styling of The Div */
+div {
+  background-color: black;
+  color: beige;
+  font-size: 100px;
+}
+
+/* This Properties Will Be Applied Till The Width of Screen is Less Than 1333 */
+@media screen and (max-width:1333px) {
+  div {
+    background-color: aquamarine;
+    font-size: 80px;
+  }
+}
+
+/* This Properties Will Be Applied Till The Width of Screen is Less Than 1067 */
+@media screen and (max-width:1067px) {
+  div {
+    background-color:rgb(49, 49, 182);
+    font-size: 60px;
+  }
+}
+
+/* This Properties Will Be Applied Till The Width of Screen is Less Than 802 */
+@media screen and (max-width:802px) {
+  div {
+    background-color:rgb(30, 30, 190);
+    font-size: 40px;
+  }
+}
+
+/* This Properties Will Be Applied Till The Width of Screen is Less Than 535 */
+@media screen and (max-width:535px) {
+  div {
+    background-color: beige;
+    color: black;
+    font-size: 20px;
+  }
+}
