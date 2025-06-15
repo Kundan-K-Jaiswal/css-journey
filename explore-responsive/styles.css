@@ -1,9 +1,9 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-/* _______________________________| For Practice Class Starts |_______________________________________ */
+/* _______________________________| Practice Starts - 1 |_______________________________________ */
 
 
 /* Initial Styling of The Div */
@@ -24,7 +24,7 @@
 /* This Properties Will Be Applied Till The Width of Screen is Less Than 1067 */
 @media screen and (max-width:1067px) {
   .practice {
-    background-color:rgb(49, 49, 182);
+    background-color: rgb(49, 49, 182);
     font-size: 60px;
   }
 }
@@ -32,7 +32,7 @@
 /* This Properties Will Be Applied Till The Width of Screen is Less Than 802 */
 @media screen and (max-width:802px) {
   .practice {
-    background-color:rgb(30, 30, 190);
+    background-color: rgb(30, 30, 190);
     font-size: 40px;
   }
 }
@@ -47,11 +47,11 @@
 }
 
 
-/* _______________________________| For Practice Class Ends |_______________________________________ */
+/* _______________________________| Practice Ends - 1 |_______________________________________ */
 
 /* __________|_____________|______________|_______________|_____________|____________|______________ */
 
-/* _______________________________| For Practice Class Ends |_______________________________________ */
+/* _______________________________| Practice Starts - 2 |_______________________________________ */
 
 header {
   margin-top: 20px;
@@ -76,6 +76,7 @@ body {
 /* Styling Amazon Logo */
 .main {
   margin-left: 20px;
+  margin-right: 120px;
   font-weight: bold;
   font-size: 25px;
   color: orange;
@@ -83,7 +84,7 @@ body {
 
 /* Arranging Layout */
 .nav {
-  margin: 120px;
+  margin-right: 220px;
 }
 
 #search-input {
@@ -97,3 +98,37 @@ body {
   height: 20px;
   width: 80px;
 }
+
+/* Making The Navbar Responsive */
+@media (max-width:1333px) {
+  .nav {
+    margin-right: 150px;
+  }
+}
+@media (max-width:1130px) {
+  .main {
+    margin-right: 200px;
+  }
+  .nav {
+    margin-right: 80px;
+  }
+}
+@media (max-width:1000px) {
+  .main {
+    margin-right: 130px;
+  }
+}
+
+@media (max-width:935px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media (max-width:935px) {
+  .nav-container {
+    height: 60px;
+  }
+}
+
+/* _______________________________| Practice Ends - 2 |_______________________________________ */
