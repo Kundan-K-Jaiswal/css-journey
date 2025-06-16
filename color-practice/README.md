@@ -12,4 +12,5 @@ background-color property changes background color where as color property chang
 <hr>
 <pre>
   Author: Kundan Kumar Jaiswal
-  Exploring Color Properties</pre>
+  Exploring Color Properties
+</pre>
