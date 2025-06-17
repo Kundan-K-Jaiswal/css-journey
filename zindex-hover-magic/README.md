@@ -1,4 +1,4 @@
-# Z-Index & Hover Magic
+# Z-Index & Hover Magic 🪄🔮
 
 In this folder I have built a page which contains five(5) images: hovering over it brings it forward and its size increases.
 
