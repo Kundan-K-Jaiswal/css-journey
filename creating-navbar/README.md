@@ -5,5 +5,5 @@ Here, in this repo I have tried to build Amazon navbar using HTML & CSS. Learing
 <hr>
 <pre>
   Author: Kundan Kumar Jaiswal
-  Exploring Text & Font Properties
+  Creating Amazon Navbar With Html & Css
 </pre>

@@ -11,5 +11,5 @@ This was possible with the help of "z-index" & "hover" property in the CSS. I ha
 <hr>
 <pre>
   Author: Kundan Kumar Jaiswal
-  Simple Loading Animation For a Page
+  Animation Through Hover & Z-index Property
 </pre>

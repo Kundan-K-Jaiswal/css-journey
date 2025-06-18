@@ -8,5 +8,5 @@ Here, this folder is simply designed to explore and practice myself for future a
 <hr>
 <pre>
   Author: Kundan Kumar Jaiswal
-  Practice Makes a Man Perfect
+  Practicing to Create Layout For Web Pages
 </pre>
