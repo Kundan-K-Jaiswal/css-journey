@@ -86,6 +86,28 @@ header {
 /* Style for the gap */
 
 
+/* Style for the fixed button */
+.fixedbutton {
+  height: 80px;
+  width: 80px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+
+.fixedbutton p {
+  font-size: 30px;
+  font-weight: 500;
+}
+/* Style for the fixed button */
+
+
 /* Style for the footer */
 .lastfoot {
   background-color: rgb(170, 155, 155);
