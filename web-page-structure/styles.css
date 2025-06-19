@@ -2,3 +2,34 @@
   margin: 0px;
   padding: 0px;
 }
+
+/* Style for the navbar  */
+header {
+  position:sticky;
+  top:0;
+}
+
+.navbar {
+  background-color: brown;
+  height: 40px;
+  /* width: 100vw;
+  position: fixed;
+  top: 0px; */
+}
+
+.navbar ul {
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* Style for the navbar  */
