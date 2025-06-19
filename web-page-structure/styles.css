@@ -33,3 +33,29 @@ header {
   color: white;
 }
 /* Style for the navbar  */
+
+
+/* Style for the main box */
+.main-box {
+  margin: 20px;
+  height: 600px;
+  background-color:rgb(255, 156, 27);
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.box1 {
+  height: 400px;
+  width:600px;
+  background-color: aqua;
+  margin: 50px;
+}
+
+.box2 {
+  height: 400px;
+  width:600px;
+  background-color:beige;
+  margin: 50px;
+}
+/* Style for the main box */
