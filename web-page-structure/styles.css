@@ -84,3 +84,17 @@ header {
   height: 65vh;
 }
 /* Style for the gap */
+
+
+/* Style for the footer */
+.lastfoot {
+  background-color: rgb(170, 155, 155);
+  height: 80px;
+  position: static;
+  bottom: 0px;
+}
+
+.lastfoot p {
+  padding: 5px;
+}
+/* Style for the footer */
