@@ -67,3 +67,70 @@ svg {
   margin-left: 5px;
 }
 /* Styling Navbar  */
+
+
+/* Hero Section */
+main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.heading-content {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-top: 50px;
+  /* border : 2px solid black */
+}
+
+.heading-content h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0px 25vw 40px 25vw ;
+}
+
+.heading-content p {
+  text-align: center;
+  width: 670px;
+  margin: 0px 25vw 25px 25vw ;;
+}
+
+.dldbtn {
+  height: 35px;
+  width: 270px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 182, 209);
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.littleContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+.littleDown {
+  font-size: 25px;
+  font-weight: 350;
+}
+
+.littlePara {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.version {
+  color: rgba(0, 0, 0, 0.635);
+  font-size: small;
+}
+/* Hero Section */
