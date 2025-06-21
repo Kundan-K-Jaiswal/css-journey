@@ -474,7 +474,8 @@ button a {
 .footer-contents-1 {
   display: flex;
   justify-content: space-around;
-  padding: 80px;
+  flex-wrap: wrap;
+  padding-left: 80px;
 }
 
 .footer-content {
@@ -482,6 +483,7 @@ button a {
   flex-direction: column;
 }
 .footer-content p {
+  margin-top: 80px;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -545,3 +547,40 @@ button a {
   scale: 1.1;
 }
 /* Footer Part 2*/
+
+
+/* Fixed-Box */
+.fixedButton-box {
+  background-color: #00b6d1;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  position: fixed;
+  bottom: 10vh;
+  right: 10px;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  /* animation-timeline: scroll(root); */
+  animation-timeline: view();
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    /* transform: scale(0); */
+    
+  }
+  30% {
+    transform: translateX(120px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateX(0px);
+  }
+}
+/* Fixed-Box */
