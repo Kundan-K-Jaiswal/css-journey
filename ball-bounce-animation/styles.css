@@ -14,8 +14,49 @@
   border-radius: 50%;
   border: 3px solid black;
   position: relative;
-  animation: moveX 13s linear 0s infinite 
-            ,moveY 1s ease-in 0s infinite alternate-reverse;
+  animation: moveX 13s linear 0s infinite, moveY 1s ease-in 0s infinite alternate-reverse;
+}
+
+
+/* Adding Strips For The Basketball */
+.strip1 {
+  /* background-color: black; */
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 5px solid rgba(128, 128, 128, 0);
+  border-right: 5px solid black;
+  position: relative;
+  top: -3px;
+  left: -63px;
+}
+
+.strip2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 5px solid rgba(128, 128, 128, 0);
+  border-left: 5px solid black;
+  position: relative;
+  top: -92px;
+  left: 53px;
+}
+
+.strip3 {
+  height: 80px;
+  width: 80px;
+  border-top: 5px solid black;
+  position: relative;
+  bottom: 140px;
+}
+
+.strip4 {
+  height: 80px;
+  width: 80px;
+  border-left: 5px solid black;
+  position: relative;
+  bottom: 262px;
+  left: 36px;
 }
 
 
@@ -23,9 +64,12 @@
 @keyframes moveX {
   from {
     left: 0px;
+
   }
+
   to {
-    left: 93vw;
+    left: 90vw;
+    transform: rotate(3000deg);
   }
 }
 
@@ -33,6 +77,7 @@
   from {
     top: 0px;
   }
+
   to {
     top: 39vh;
   }
