@@ -15,6 +15,7 @@
   border: 3px solid black;
   position: relative;
   animation: moveX 13s linear 0s infinite, moveY 1s ease-in 0s infinite alternate-reverse;
+  z-index: 99;
 }
 
 
@@ -81,4 +82,55 @@
   to {
     top: 39vh;
   }
+}
+
+
+
+/* Adding Clouds */
+.cloud {
+  display: flex;
+  position: relative;
+  animation: move 60s linear 0s infinite;
+}
+
+p {
+  position: absolute;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-50vw);
+  }
+
+  to {
+    transform: translateX(130vw);
+  }
+}
+
+.p-1 {
+  font-size: 150px;
+  left: -30vw;
+  bottom: 10vh;
+}
+
+.p-2 {
+  font-size: 100px;
+  left: 30vw;
+}
+
+.p-3 {
+  font-size: 120px;
+  left: 50vw;
+}
+
+.p-4 {
+  font-size: 150px;
+  left: 73vw;
+  top: -20vh;
+}
+
+.p-5 {
+  font-size: 150px;
+  left: 80px;
+  top: -35vh;
 }
