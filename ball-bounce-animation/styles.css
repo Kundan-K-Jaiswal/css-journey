@@ -1,0 +1,39 @@
+/* Styling Container */
+.container {
+  height: 50vh;
+  background-color: skyblue;
+  border-bottom: 7px solid black;
+}
+
+
+/* Styling Ball */
+.ball {
+  height: 80px;
+  width: 80px;
+  background-color: orange;
+  border-radius: 50%;
+  border: 3px solid black;
+  position: relative;
+  animation: moveX 13s linear 0s infinite 
+            ,moveY 1s ease-in 0s infinite alternate-reverse;
+}
+
+
+/* Adding Animation For Ball Motion */
+@keyframes moveX {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 93vw;
+  }
+}
+
+@keyframes moveY {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 39vh;
+  }
+}
