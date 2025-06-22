@@ -1,7 +1,7 @@
 # CSS Journey 🚀
 
 Welcome to my **CSS Journey** — a collection of small, focused web projects I created while learning HTML and CSS. This repo showcases everything from layout experiments to fun animations, organized into self-contained folders. Each project helps me better understand modern web design concepts.
-<li>It Contains a Navigation Page Through Which you can launch the `index.html` file of each folder in your browser.</li>
+<li>It contains a Navigation Page through which you can launch the `index.html` file of each folder in your browser.</li>
 
 ---
 
@@ -47,6 +47,11 @@ Each folder represents a separate project. Here's what's inside:
 2. Open any folder.
 3. Launch the `index.html` file in your browser.
 4. Explore the CSS styles in the linked `style.css` or `styles.css`.
+
+  or,
+  
+5. <a href="https://kundan-k-jaiswal.github.io/css-journey/" target="_blank" >Simply Click Here To Preview Through GitHub</a>
+   
 
 ---
 
