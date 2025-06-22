@@ -50,7 +50,7 @@ Each folder represents a separate project. Here's what's inside:
 
   or,
   
-5. <a href="https://kundan-k-jaiswal.github.io/css-journey/" target="_blank" >Simply Click Here To Preview Through GitHub</a>
+5. <a href="https://kundan-k-jaiswal.github.io/css-journey/0_css-journey-navigation" target="_blank" >Simply Click Here To Preview Through GitHub</a>
    
 
 ---
