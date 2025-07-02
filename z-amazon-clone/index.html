@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amazon Clone</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="shortcut icon" href="../Assets-For-Css-Journey/for-amazon-clone/amazon-shortcut-logo.jpg"
+    type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-  
+
+  <header>
+
+    <nav>
+      <div class="nav-logo">
+        <!-- <img src="../Assets-For-Css-Journey/for-amazon-clone/amazon_logo.png" alt="Amazon-Logo"> -->
+      </div>
+
+      <div class="nav-address-container hover-border">
+        <p class="color-grey">Deliver to</p>
+        <div class="nav-address">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="style-bold">India</p>
+        </div>
+      </div>
+
+      <div class="nav-search">
+        <div class="nav-category-type">
+          <select class="nav-search-options" name="category" id="category">
+            <option value="All">All</option>
+            <option value="Men">Men</option>
+            <option value="Women">Women</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Kitchen">Kitchen</option>
+            <option value="Kids">Kids</option>
+          </select>
+        </div>
+
+        <div class="nav-search-field">
+          <input class="nav-search-input" type="text" placeholder="Search Amazon">
+        </div>
+
+        <div class="nav-search-icon-container">
+          <i class="fa-solid fa-magnifying-glass nav-search-icon"></i>
+        </div>
+
+      </div>
+
+      <div class="nav-language hover-border">
+        <i class="fa-solid fa-flag"></i>
+        <select class="nav-language-option style-bold" name="language" id="language">
+          <option value="English-En">EN</option>
+          <option value="Hindi-Hi">HI</option>
+          <option value="Japnese-Ja">JA</option>
+          <option value="Chinese-Ch">CH</option>
+          <option value="Korean-Ko">KO</option>
+        </select>
+      </div>
+      <div class="nav-account hover-border">
+        <p class="color-grey">Hello, sign in</p>
+        <a class="style-bold" href="">Account & List</a>
+      </div>
+
+      <div class="nav-return hover-border">
+          <a class="color-grey">Returns</a>
+          <a class="style-bold">& Orders</a>
+        </div>
+      </div>
+
+      <div class="nav-cart hover-border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p class="style-bold">Cart</p>
+      </div>
+      </div>
+    </nav>
+  </header>
 </body>
+
 </html>
