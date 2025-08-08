@@ -29,7 +29,7 @@ nav {
   width: 125px;
   background-color: red;
   } */
-  .nav-logo {
+.nav-logo {
     background-image: url(../Assets-For-Css-Journey/for-amazon-clone/amazon_logo.png);
     height: 60px;
     width: 100px;
@@ -94,7 +94,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 41px;
   width: 55px;
   font-size: 25px;
   background-color: var(--orange);
@@ -169,6 +169,37 @@ nav {
 .hover-border:hover {
   border: 2px solid white;
   border-radius: 5px;
-  padding: .5em;
+  padding: .2em;
   cursor: pointer;
+}
+
+
+
+
+/** TO STYLE THE NAV BAR 02 **/
+.nav-bar-02 {
+    height: 40px;
+    background-color: #112339;
+    display: flex;
+    align-items: center;
+}
+
+.burger-all {
+    display: flex;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.burger-all p {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-bar-02 a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 18px;
 }
