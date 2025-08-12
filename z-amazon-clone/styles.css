@@ -2,4 +2,6 @@
   margin: 0px;
   padding: 0px;
   font-family: arial;
+  scroll-behavior: smooth;
+  border: border-box;
 }
