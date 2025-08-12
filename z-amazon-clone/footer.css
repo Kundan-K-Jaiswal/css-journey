@@ -1,0 +1,71 @@
+/** TO STYLE THE FOOTER PANNEL 01 **/
+.footer-pannel-01 {
+    height:170px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.footer-pannel-01-p {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hr-line {
+    border-top: 0.5px solid rgba(0, 0, 0, 0.279);
+}
+
+.footer-pannel-01-signin button {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(238, 161, 18);
+    width: 230px;
+    height: 28px;
+    margin-bottom: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.newcustomer {
+    font-size: 11px;
+    color: #000000;
+    margin-right: 3px;
+}
+
+.starthere {
+    text-decoration: none;
+    font-size: 11px;
+    color: #007185;
+    margin-bottom: 20px;
+}
+
+.starthere:hover {
+    color: #9f1e1e;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/** TO STYLE THE FOOTER PANNEL 02 **/
+.footer-pannel-02 {
+    height: 50px;
+    background-color: #232f3eed;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.footer-pannel-02 a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-pannel-02:hover {
+    background-color: #2f3c4ce5;
+}
